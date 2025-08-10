@@ -65,12 +65,12 @@
     const messageBox = document.getElementById('message');
 
     // Game state
-    let selectedIsWhite = true; // true = white, false = black
+    let selectedIsWhite = false; // true = white, false = black
     let health = 250;
     const maxHealth = 250;
 
     // How much damage per second at worst-case (pixel is fully opposite)
-    const maxDamagePerSecond = 80; // tweak this for difficulty
+    const maxDamagePerSecond = 40; // tweak this for difficulty
 
     // Track mouse
     let mouseX = 0, mouseY = 0;
